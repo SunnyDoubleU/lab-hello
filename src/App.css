@@ -1,11 +1,83 @@
-.App {
-  text-align: center;
+html {
+font-size: 14px;
+font-family: Helvatica;
+}
+
+.Nav {
+  text-align: left;
+  background: #1C2131;
+}
+
+.Nav img {
+  margin-top: 10vh;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 50px;
 }
 
+.Cover {
+  padding-top: 1vh;
+  background: #1C2131 url('./images/react-logo.svg') right top;
+  height: 90vh;
+  widht: 100vw;
+  color: white;
+}
+
+.Margin {
+  margin: 0 10vw 0 10vw;
+}
+
+.Cover h1 {
+font-size: 6rem;
+width: 500px;
+margin: 15vh 0 0 0;
+}
+
+.Cover h2 {
+  font-size: 2rem;
+  width: 400px;
+  font-weight: 200;
+}
+
+.CoverBtn {
+  background: white;
+  color: #1C2131;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 3vh;
+  border-radius: 6px;
+  margin-top: 4vh;
+}
+
+.Des {
+  height:60vh;
+  width: 100vw;
+}
+
+.DesFlexRow {
+  display: flex;
+  flex-direction: row;
+  margin: 10vh 0;
+}
+
+.DesBox {
+  width: 200px;
+  margin: 0 4vw 0 0;
+}
+
+.DesBox h3 {
+  color: #1C2131;
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.DesBox p {
+  color: #1C2131;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,4 +91,5 @@
 
 .App-link {
   color: #09d3ac;
-}
+} */
+
